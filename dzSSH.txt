@@ -1,0 +1,29 @@
+1)lxd init
+2)lxc init ubuntu:20.04 dz1
+3)lxc init ubuntu:20.04 dz2
+4)lxc start dz1
+5)lxc start dz2
+6)lxc list
+7)cd /root/.ssh
+8)rm *
+9)ssh-keygen
+10)lxc exec dz1 /bin/bash
+11)cd /etc/ssh
+12)nano sshd_config
+13)systemctl restart ssh*.service
+14)passwd root
+15)exit
+16)lxc exec dz2 /bin/bash
+17)cd /etc/ssh
+18)nano sshd_config
+19)systemctl restart ssh*.service
+20)passwd root
+21)exit
+22)ssh-copy-id root@10.237.159.95
+23)ssh-copy-id root@10.237.159.236
+24)ssh root@10.237.159.95
+25)exit
+26)ssh root@10.237.159.236
+27)ssh-keygen
+28)ssh-copy-id root@10.237.159.95
+29)ssh root@10.237.159.95
